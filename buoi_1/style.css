@@ -1,0 +1,34 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+#screenshot {
+  background-color: #f3f3f1;
+  width: 40%;
+  height: auto;
+  margin-left: 5%;
+}
+.column {
+  float: left;
+  width: 50%;
+  height: 150px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #e5f8c8;
+}
+footer ul {
+  margin-left: 30px;
+  list-style-type: square;
+  color: #7dbd1b;
+  padding: 5px;
+  margin-left: 10%;
+}
+footer ul li {
+  color: #000;
+}
