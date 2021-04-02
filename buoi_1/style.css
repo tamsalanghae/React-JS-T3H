@@ -32,3 +32,11 @@ footer ul {
 footer ul li {
   color: #000;
 }
+
+footer ul li a {
+  font-size: 14px;
+  color: #585858;
+}
+footer ul li a:hover {
+  color: green;
+}
