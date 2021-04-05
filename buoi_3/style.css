@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* div > p {
+}
+
+/* tk p = con trực tiếp của div ông thì ms lấy  */
+/* div h2 {
+
+}
+lấy tất cả các thẻ h2 nằm trong thẻ div bo */
+/* - dùng dấu phẩy để gom nhóm các thuộc tính có cùng css */
+p,
+h2 {
+  color: brown;
+}
+/* 
++ thuộc tính first child và last child
++ :first-of-type
++ :last-child
++ :last-of-type
++ :nth-last-child()
++ :nth-last-of-type() */
++ only child + :focus ul li:first-child p {
+  font-size: 50px;
+}
+ul li:nth-child(3) p {
+  font-size: 80px;
+}
+input:focus {
+  width: 500px;
+}
+a {
+    font-size: 50px;
+}
+
+
+
+a:link {
+  color: red;
+}
+a:hover {
+    color: cornflowerblue;
+}
+
+
+a:active {
+  color: blue;
+}
+a:visited {
+    color: green;
+  }
+  
+
+ul li a {
+    font-size: 30px;
+}
+
+ul li a:link{
+    color: blue;
+}
+
+ul li a:visited {
+    color: brown;
+}
+ul li a:hover {
+    color: aqua;
+}
+ul li a:active {
+    color: blueviolet;
+}
+/* active len trc hover thi active bi disable  */
+
+
+.click {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+
+
+.click:hover{
+  background-color:aqua;
+}
+.click:active {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+p {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Train One', cursive;
+}
+p::first-line {
+    color:blueviolet;
+}
+p::first-letter {
+    font-size: 50px;
+}
+
+p::selection {
+    color: aqua;
+    background-color: blueviolet;
+}
+
+/* 
++ ::after
++ ::before */
+
+#container {
+    width: 1900px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
