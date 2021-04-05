@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    <img src="img/logo.jpg" alt="khong the hien thi anh" />
+    <img id="img-logo" src="img/logo.png" alt="khong the hien thi anh" />
+
     <h3>Coffee Junkie</h3>
     <ul>
-      <li><a href="./pages/home.html">Home</a></li>
-      <li><a href="./pages/about.html">About</a></li>
-      <li><a href="./pages/numbers.html">Number</a></li>
-      <li><a href="./pages/contact.html">Contact</a></li>
+      <li><a href="./pages/home.html">H O M E</a></li>
+      <li><a href="./pages/about.html">A B O U T</a></li>
+      <li><a href="./pages/numbers.html">N U M B E R</a></li>
+      <li><a href="./pages/contact.html">C O N T A C T</a></li>
     </ul>
-    <img src="" alt="banner" />
-    <h1>Featured Products</h1>
-    <h2>House Blend Coffee</h2>
-    <img src="img/houseblend.jpeg" alt="blend coffee" />
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dicta,
-      neque rem dolorem quibusdam ab?
-    </p>
-    <a href="#">Detail</a>
+    <div class="container">
+      <img id="text-img" src="./img/text-img-01.png" alt="specialty coffee" />
+      <img id="img-blend" src="img/img-blend.jpg" alt="blend coffee" />
+    </div>
+    <h2 id="title-h2-1">House Blend Coffee</h2>
+    <div class="row">
+      <div class="column">
+        <img
+          class="img-grid-view"
+          src="./img/grid-view-img1.jfif"
+          alt="image"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="img-grid-view"
+          src="./img/grid-view-img2.jfif"
+          alt="image"
+        />
+      </div>
+      <div class="column">
+        <img
+          class="img-grid-view"
+          src="./img/grid-view-img3.jfif"
+          alt="image"
+        />
+      </div>
+    </div>
 
-    <h2>French Roast Coffee</h2>
-    <img src="img/frenchroast.jpeg" alt="roast coffee" />
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dicta,
-      neque rem dolorem quibusdam ab?
-    </p>
-    <a href="#">Detail</a>
+    <h2 id="title-h2-2">French Roast Coffee</h2>
+    <div id="p2-container">
+      <div style="color: #f8dfd8">.</div>
+      <img id="text-img-02" src="./img/text-img-02.png" alt="image" />
+      <img id="french-img" src="img/french-img.jfif" alt="roast coffee" />
+    </div>
 
-    <h2>Columbian Roast Coffee</h2>
+    <!-- <h2>Columbian Roast Coffee</h2>
     <img src="img/columbianroast.jpeg" alt="Columbian coffee" />
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dicta,
       neque rem dolorem quibusdam ab?
     </p>
-    <a href="#">Detail</a>
+    <a href="#">Detail</a> -->
 
-    <p>Copyright ©2019</p>
-    <a href="#">Back to top</a>
+    <div class="footer">
+      <p>Copyright ©2019</p>
+      <a href="#">Back to top</a>
+    </div>
   </body>
 </html>
