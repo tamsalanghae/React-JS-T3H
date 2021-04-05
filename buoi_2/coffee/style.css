@@ -28,7 +28,7 @@ ul li a {
 }
 .container {
   background-color: #f2d7bd;
-  height: 670px;
+  height: 720px;
   width: 100%;
 }
 #img-blend {
@@ -72,21 +72,21 @@ ul li a {
   text-align: center;
 }
 #p2-container {
-    height: 680px;
+    height: 640px;
     width: auto;
     background-image: url(./img/p2-container.jfif);
 }
 #french-img {
     display: block;
     padding: auto;
-    margin-top: 50px;
-    width: 40%;
+    margin-top: 30px;
+    width: 35%;
     margin-left: 50px;
 }
 #text-img-02 {
     width: 40%;
     float: right;
-    margin-top: 9%;
+    margin-top: 6%;
     margin-right: 10%;
 }
 .footer {
