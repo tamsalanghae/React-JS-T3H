@@ -38,12 +38,14 @@
     display        : flex;
     align-items    : center;
     justify-content: flex-end;
+    margin-left: 100px;
 }
 
 .right i {
     font-size: 25px;
     color    : white;
     padding  : 5px;
+    margin: 6px;
 }
 
 .hero-ligh3 {
@@ -95,7 +97,8 @@
     top             : 0px;
     background-color: #2091F9;
     border          : 0;
-    border-radius   : 10px;
+    border-radius   : 50px;
+    color: white;
 }
 
 .features {
@@ -116,8 +119,9 @@
 }
 
 .items-features {
-    width  : 600px;
+    width  : 800px;
     display: flex;
+    margin-top: 60px;
 
 }
 
@@ -139,7 +143,7 @@
 }
 
 .content-4 {
-    margin         : 200px auto;
+    margin         : 80px auto;
     display        : flex;
     width          : 1000px;
     justify-content: center;
@@ -151,6 +155,8 @@
     justify-content: space-around;
     text-align     : center;
     align-items    : center;
+    width: 200px;
+    margin-right: 120px;
 }
 
 .img-4 img {
@@ -203,6 +209,7 @@
     padding      : 15px;
     border-radius: 30px;
     width        : 200px;
+    height: 15px;
 }
 
 .button-5 {
@@ -214,6 +221,7 @@
     color        : white;
     text-align   : center;
     margin-left  : 10px;
+    height: 15px;
 }
 
 .footer {
